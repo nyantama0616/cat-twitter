@@ -1,9 +1,7 @@
 from db import conn
 
 def main():
-    conn.execute("""
-        DROP TABLE users
-    """)
+    conn.execute("DROP TABLE users")
 
     conn.close()
 
