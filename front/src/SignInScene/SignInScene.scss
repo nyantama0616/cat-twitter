@@ -1,0 +1,14 @@
+@import "../Other/other.scss";
+
+.sign-in-scene {
+    @extend .my-form-container;
+    margin: 100px auto;
+    border-color: rgb(196, 220, 196);
+    background-color: rgb(237, 251, 239);
+
+    form {
+        label {
+            float: left;
+        }
+    }
+}
